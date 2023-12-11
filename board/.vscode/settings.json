@@ -1,0 +1,11 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.mouseWheelZoom": true,
+    "window.zoomLevel": 0,
+    "spring.dashboard.openWith": "external",
+    "editor.tokenColorCustomizations": {
+        "comments": "#66ff00" 
+    },
+    "explorer.compactFolders": false,
+    "liveServer.settings.port": 5501,
+}

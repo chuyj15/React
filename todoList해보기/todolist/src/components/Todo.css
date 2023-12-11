@@ -1,0 +1,56 @@
+* {margin: 0;padding: 0;box-sizing: border-box;}
+a { text-decoration: none;}
+li { list-style: none;}
+img {text-align: center; width: 100%;}
+/* Container */
+.Wrap {width: 100vw;height: 100vh - 100px;}
+.container { 
+    padding: 20px 30px;
+    margin: auto; width: 500px; min-height: 700px; background-color: rgb(205, 255, 216);}
+/* Header */
+h1 {margin: auto; text-align: center; border-bottom: 1px solid green;}
+.todoInput { width: 100%;display: flex; margin-top: 20px;}
+.todoInputt {width: 85%; border-bottom: 1px solid rgb(160, 243, 160);}
+.todoInputt label { color: green; padding: 0 10px; width: 10%;}
+.todoInputt input {border : 0; width: 75%; height: 30px; outline: none; background-color: inherit;}
+.todoInput button {border: 0; background-color: rgb(107, 197, 107); 
+    width: 15%; border-radius: 10px; height: 30px; width: 15%;}
+/* todoItem */
+.todoItem { 
+    margin : 10px 0;
+    border: 1px solid rgb(93, 223, 93); border-radius: 10px; width: 100%; height: 50px; padding: 10px 10px;}
+.todoItem input {margin: 0 15px; appearance: none;
+    border : max(2px, 0.1em) dashed rgb(93, 223, 93); width: 1.25em; height: 1.25em; 
+    border-radius: 50%; vertical-align: middle;
+}
+.todoItem input:checked { border : max(3px, 0.1em) solid rgb(64, 155, 64); background-color: rgb(37, 185, 37);}
+.todoItem label { width: 73%; display: inline-block;}
+.todoItem button {border: 0; background-color: rgb(107, 197, 107); 
+    width: 15%; border-radius: 10px; height: 30px; width: 15%; cursor: pointer;}
+.active {background-color: rgb(161, 233, 176); }
+.active input { border : max(3px, 0.1em) solid rgb(64, 155, 64); background-color: rgb(37, 185, 37);}
+.active label { text-decoration: line-through;}
+/* footer */
+.footer { width: 100%; display: flex; justify-content: space-between; height: 100px; margin-top: 20px;}
+.footer button {border: 0; background-color: rgb(107, 197, 107); 
+    width: 15%; border-radius: 10px; height: 30px; width: 15%; cursor: pointer;}
+    button:hover {background-color: #fff;cursor: pointer; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

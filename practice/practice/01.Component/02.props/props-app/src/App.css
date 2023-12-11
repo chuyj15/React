@@ -1,0 +1,5 @@
+/* 카드 스타일 만들기 */
+.card {
+  border: 1px solid #000;
+  padding: 10px; margin: 10px; border-radius: 10px;
+}
